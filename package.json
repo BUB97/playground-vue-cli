@@ -1,0 +1,22 @@
+{
+  "name": "playground-vue-cli",
+  "version": "1.0.0",
+  "description": "yarn + lerna + vue-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "yarn workspace vue-demo run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BUB97/playground-vue-cli.git"
+  },
+  "author": "BUB97",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BUB97/playground-vue-cli/issues"
+  },
+  "private": true,
+  "workspaces": ["packages/*"],
+  "homepage": "https://github.com/BUB97/playground-vue-cli#readme"
+}
