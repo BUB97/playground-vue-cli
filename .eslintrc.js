@@ -7,7 +7,7 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "prettier",
-    "@tencent/eslint-config-tencent",
+    "tencent",
     "plugin:@typescript-eslint/recommended",
   ],
   plugins: ["@typescript-eslint"],
