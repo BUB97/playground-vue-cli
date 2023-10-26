@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "yarn workspace vue-demo run serve"
+    "serve": "yarn workspace @mono/vue-demo run serve"
   },
   "repository": {
     "type": "git",
