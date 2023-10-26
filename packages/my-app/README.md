@@ -1,4 +1,4 @@
-# vue-demo
+# @mono/my-app
 
 ## Project setup
 ```

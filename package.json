@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "yarn workspace @mono/vue-demo run serve"
+    "serve": "yarn workspace @mono/my-app run serve"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,7 @@
     "@typescript-eslint/parser": "^6.9.0",
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
+    "lerna": "^7.4.1",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
   }
