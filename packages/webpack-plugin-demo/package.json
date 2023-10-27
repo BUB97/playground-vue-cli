@@ -1,11 +1,11 @@
 {
-  "name": "components",
+  "name": "@mono/webpack-plugin-demo",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "BUB97 <shuhang_zhan@sina.com>",
-  "homepage": "https://github.com/BUB97/playground-vue-cli/tree/main/packages/components#readme",
+  "homepage": "https://github.com/BUB97/playground-vue-cli/tree/main/packages/webpack-plugin-demo#readme",
   "license": "MIT",
-  "main": "lib/components.js",
+  "main": "lib/webpack-plugin-demo.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,7 +21,7 @@
     "url": "git+https://github.com/BUB97/playground-vue-cli.git"
   },
   "scripts": {
-    "test": "node ./__tests__/components.test.js"
+    "test": "node ./__tests__/webpack-plugin-demo.test.js"
   },
   "bugs": {
     "url": "https://github.com/BUB97/playground-vue-cli/issues"

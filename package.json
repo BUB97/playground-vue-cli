@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "yarn workspace @mono/my-app run serve"
+    "serve": "yarn workspace @mono/my-app run serve",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",

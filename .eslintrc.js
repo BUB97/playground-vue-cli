@@ -28,6 +28,7 @@ module.exports = {
 
     // 禁用基础配置汇总的规则
     "for-direction": "off",
+    '@typescript-eslint/no-var-requires': 0,
   },
-  ignorePatterns: ["dist", "node_modules"],
+  ignorePatterns: ["dist", "node_modules", ".eslintrc.js"],
 };

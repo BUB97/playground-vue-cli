@@ -23,8 +23,6 @@
         "packages/*/src/main.js"
       ]
     },
-    "allowJs": false
   },
-  "include": ["./.eslintrc.js", "**/*.ts"],
   "exclude": ["node_modules", "dist", "*.d.ts"]
 }

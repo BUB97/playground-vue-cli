@@ -1,0 +1,29 @@
+{
+  "name": "@mono/webpack-loader-demo",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "BUB97 <shuhang_zhan@sina.com>",
+  "homepage": "https://github.com/BUB97/playground-vue-cli/tree/main/packages/webpack-loader-demo#readme",
+  "license": "MIT",
+  "main": "lib/webpack-loader-demo.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BUB97/playground-vue-cli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/webpack-loader-demo.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/BUB97/playground-vue-cli/issues"
+  }
+}

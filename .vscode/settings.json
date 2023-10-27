@@ -2,6 +2,5 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true 
   },
-  "eslint.codeActionsOnSave.mode": "problems",
   "javascript.validate.enable": false,
 }
