@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "yarn workspace @mono/my-app run serve",
+    "serve:app": "yarn workspace @mono/my-app run serve",
+    "build:app": "yarn workspace @mono/my-app run build",
+    "serve:comp": "yarn workspace @mono/my-components run serve",
+    "build:comp": "yarn workspace @mono/my-components run build",
     "lint": "eslint ."
   },
   "repository": {
@@ -33,6 +36,7 @@
     "lerna": "^7.4.1",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2",
-    "vue-eslint-parser": "^9.3.2"
+    "vue-eslint-parser": "^9.3.2",
+    "webpack": "^5.89.0"
   }
 }

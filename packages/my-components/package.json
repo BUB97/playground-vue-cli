@@ -1,12 +1,13 @@
 {
   "name": "@mono/my-components",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "module": "src/main.js",
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^3.2.13"

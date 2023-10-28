@@ -4,15 +4,18 @@
     src="./assets/logo.png"
   >
   <HelloWorld msg="Welcome to Your Vue.js App" />
+  <MonoHelloWorld />
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+import { MonoHelloWorld } from "@mono/my-components";
 
 export default {
   name: "App",
   components: {
     HelloWorld,
+    MonoHelloWorld,
   },
 };
 </script>
