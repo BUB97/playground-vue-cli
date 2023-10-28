@@ -4,13 +4,17 @@ module.exports = {
     project: "./tsconfig.json",
     tsconfigRootDir: __dirname,
   },
+  overrides: [{
+    "files": ["*.vue"],
+    "parser": "vue-eslint-parser"
+  }],
   extends: [
     "eslint:recommended",
     "prettier",
     "tencent",
     "plugin:@typescript-eslint/recommended",
+    "plugin:vue/vue3-recommended"
   ],
-  plugins: ["@typescript-eslint"],
   env: {
     es6: true,
     node: true,
@@ -25,6 +29,7 @@ module.exports = {
     // override configuration set by extending "eslint:recommended"
     "no-empty": "warn",
     "no-cond-assign": ["error", "always"],
+    "quote-props": ["error", "as-needed", { unnecessary: true }],
 
     // 禁用基础配置汇总的规则
     "for-direction": "off",

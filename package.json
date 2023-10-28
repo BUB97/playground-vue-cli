@@ -29,8 +29,10 @@
     "eslint": "^8.52.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-tencent": "^1.0.4",
+    "eslint-plugin-vue": "^9.18.1",
     "lerna": "^7.4.1",
     "prettier": "^3.0.3",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vue-eslint-parser": "^9.3.2"
   }
 }
